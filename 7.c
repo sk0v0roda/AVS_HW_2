@@ -37,16 +37,8 @@ void change(FILE *out, char *s, int len){
   }
 }
 int main(int argc, char * argv[]) {
-  if(argc != 3){
-      printf("incorrect input\n");
-      return 0;
-  }
   FILE *input = fopen(argv[1], "r");
   FILE *out = fopen(argv[2], "w");
-  if((input == NULL) || (out == NULL)){
-      printf("incorrect file\n");
-      return 0;
-  }
   int len, test; 
   char *s = get_string(input, &len, &test); 
   if(test == 0){
