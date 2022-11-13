@@ -63,3 +63,5 @@ gcc ./a.out
 - Команды для проверки:
 gcc 7.s
 gcc ./a.out input.txt output.txt
+
+Также были добавлены дополнительные файлы для тестирования программы -- "testfile_1.txt", "testfile_2.txt", "testfile_3.txt".
